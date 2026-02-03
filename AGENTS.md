@@ -172,7 +172,7 @@ Add `#skip-bugbot` to the PR description for trivial PRs that won't affect end-u
 
 AGENTS.md (and its CLAUDE.md symlink) is the source of truth for these roles; editor rules under `.claude/` and `.cursor/rules` should refer back here instead of duplicating guidance.
 
-Use the following Copilot agent roles when re-architecting this fork into a web-only app without the `src/pro` feature set. Each agent should keep changes minimal, document assumptions, and avoid modifying unrelated files.
+Use the following Copilot agent roles when re-architecting this fork into a web-only app without the `src/pro` feature set. Each agent should keep changes minimal, document assumptions, and avoid modifying unrelated files. Agent definitions are in `.github/agents/*.agent.md`.
 
 - **Architecture lead**
   - Map Electron-specific entry points (`main`, `preload`, IPC handlers) and outline the target web architecture.
