@@ -198,3 +198,14 @@ Use the following Copilot agent roles when re-architecting this fork into a web-
   - Replace Electron build steps with web build steps (Vite, static hosting, etc.).
   - Update CI workflows to run web lint/build/test only; remove Electron packaging and signing.
   - Ensure environment configs and documentation match the new web deployment path.
+
+- **Develop**
+  - Implements scoped feature work per the orchestrator handoff.
+  - Follows repo architecture rules (TanStack Router/Query, queryKeys factory).
+  - Adds or updates tests for non-trivial changes.
+
+## Agent workflow (handoffs)
+
+Use the orchestrated sequence and handoff template in:
+- .github/agents/workflow-orchestrator.md
+- .github/agents/workflow-example.md
